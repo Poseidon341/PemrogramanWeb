@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.add-container h1 {
+    border: 2px solid #0367c5;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 10px;
+    text-align: left;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #0367c5;
+}
+
+.list-container h1 {
+    border: 2px solid #40ddf8;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 10px;
+    text-align: left;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #40ddf8;
+}
+
+#add-container {
+    background-color: #fff;
+    width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.add-task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#add-button {
+    background-color: #00cc00;
+    color: white;
+    border: none;
+    padding: 12px 50px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#list-container {
+    background-color: #fff;
+    width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 15px;
+    font-weight: lighter;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.action-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.check-button {
+    background-color: #00cc00;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.delete-button {
+    background-color: #ff3333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: #888;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
